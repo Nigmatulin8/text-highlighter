@@ -1,0 +1,7 @@
+{
+  "name": "@nigmatulin8/text-highlighter-react",
+  "version": "0.1.0",
+  "dependencies": {
+    "@nigmatulin8/text-highlighter-core": "workspace:*"
+  }
+}
