@@ -15,6 +15,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nigmatulin8/text-highlighter.git",
+    "directory": "packages/core"
+  },
   "scripts": {
     "build": "vite build",
     "test": "vitest"
