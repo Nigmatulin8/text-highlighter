@@ -1,0 +1,52 @@
+{
+  "name": "@nigmatulin8/text-highlighter-vue2",
+  "version": "0.1.0",
+  "description": "Vue 2 component for highlighting text in HTML",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nigmatulin8/text-highlighter.git",
+    "directory": "packages/vue2"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "highlight",
+    "text",
+    "html",
+    "highlighter"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "dependencies": {
+    "@nigmatulin8/text-highlighter-core": "workspace:*"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vite-plugin-dts": "^5.1.0",
+    "vitest": "^4.1.11",
+    "vue": "^2.7.16"
+  }
+}
