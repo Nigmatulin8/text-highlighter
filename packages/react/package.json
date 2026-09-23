@@ -1,7 +1,54 @@
 {
   "name": "@nigmatulin8/text-highlighter-react",
   "version": "0.1.0",
+  "description": "React component for highlighting text in HTML",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nigmatulin8/text-highlighter.git",
+    "directory": "packages/react"
+  },
+  "keywords": [
+    "react",
+    "highlight",
+    "text",
+    "html",
+    "highlighter"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
   "dependencies": {
     "@nigmatulin8/text-highlighter-core": "workspace:*"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "jsdom": "^30.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11",
+    "vite-plugin-dts": "^5.1.0"
   }
 }
